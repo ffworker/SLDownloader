@@ -1,0 +1,65 @@
+Sure! Here's a README for your script:
+
+---
+
+# Stream Downloader
+
+## Overview
+
+This Python script is designed to download streaming content from a specified URL using the Streamlink tool. It continuously attempts to download the stream specified by the user and restarts the download if it stops. Additionally, it handles filename collisions by appending numerical suffixes to the output file name.
+
+## Dependencies
+
+- Python 3.x
+- Streamlink
+
+## Usage
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your_username/your_repository.git
+   ```
+
+2. **Navigate to the Directory:**
+   ```bash
+   cd your_repository
+   ```
+
+3. **Install Streamlink:**
+   ```bash
+   pip install streamlink
+   ```
+
+4. **Execute the Script:**
+   ```bash
+   python download.py
+   ```
+
+5. **Enter Stream URL:**
+   - When prompted, enter the URL of the stream you wish to download.
+
+6. **Enter Filename (Excluding Extension):**
+   - When prompted, enter the desired filename for the downloaded stream (excluding the file extension).
+
+7. **Monitor the Download:**
+   - The script will continuously attempt to download the specified stream. It will automatically retry every 30 seconds if the download stops and handle filename collisions by appending numerical suffixes.
+
+## Example
+
+```bash
+Enter the stream URL: <stream_url_here>
+Enter the filename (excluding extension): <filename_here>
+```
+
+## Notes
+
+- By default, the downloaded file will be saved in the `F:/streamlink/` directory with the specified filename and the `.mp4` extension.
+- Ensure that the Streamlink utility is installed and accessible in your system's PATH environment variable.
+
+## Contributions
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or create a pull request.
+
+---
+
+Feel free to customize this README further to suit your preferences or specific requirements!
